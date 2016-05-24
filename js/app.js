@@ -40,18 +40,14 @@ var app = function(){
         divs.css('height', 'auto');
     }       
 
-    var bindImageComplete = function(){
-        if (img1.complete && img2.complete && img3.complete) {
+    var bindWindowLoad = function(){
+        $(window).load(function() {
             setAllDivHeights();
-        } else {
-            img1.addEventListener('load', loaded);
-            img2.addEventListener('load', loaded);
-            img3.addEventListener('load', loaded);
-        }
+        });
     }
 
     var init = function(){
-        bindImageComplete();
+        bindWindowLoad();
         bindWindowOnResize();
     }
     
