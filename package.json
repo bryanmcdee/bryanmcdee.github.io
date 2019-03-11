@@ -1,0 +1,23 @@
+{
+  "name": "bryanmcdee.github.io",
+  "version": "2.0.0",
+  "description": "bryanmcdee.github.io",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanmcdee/bryanmcdee.github.io.git"
+  },
+  "keywords": [
+    "\"About",
+    "Me\""
+  ],
+  "author": "Bryan McDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanmcdee/bryanmcdee.github.io/issues"
+  },
+  "homepage": "https://github.com/bryanmcdee/bryanmcdee.github.io#readme"
+}
